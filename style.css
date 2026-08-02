@@ -74,8 +74,8 @@ nav {
 
 .hero {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 190px;
-  gap: 34px;
+  grid-template-columns: minmax(0, 1fr) 112px;
+  gap: 28px;
   align-items: start;
   padding: 52px 0 46px;
 }
@@ -131,12 +131,13 @@ li + li {
 }
 
 .profile-photo {
-  width: 190px;
-  aspect-ratio: 4 / 5;
+  width: 112px;
+  aspect-ratio: 1;
   border: 1px solid var(--line);
-  border-radius: 6px;
+  border-radius: 999px;
   background: #ffffff;
   object-fit: cover;
+  object-position: center 34%;
 }
 
 .actions {
@@ -212,8 +213,8 @@ li + li {
 
 .skill-groups {
   display: grid;
-  grid-template-columns: repeat(2, minmax(0, 1fr));
-  gap: 20px 28px;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 18px;
 }
 
 .compact {
@@ -259,7 +260,7 @@ footer p {
   }
 
   .profile-photo {
-    width: 150px;
+    width: 96px;
     order: -1;
   }
 }
