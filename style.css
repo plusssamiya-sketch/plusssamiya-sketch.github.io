@@ -1,4 +1,4 @@
-:root {
+﻿:root {
   --paper: #fffdf8;
   --ink: #1e2426;
   --muted: #647070;
@@ -134,12 +134,11 @@ li + li {
 
 .profile-photo {
   width: 112px;
-  aspect-ratio: 1;
+  height: auto;
+  max-width: 100%;
   border: 1px solid var(--warm);
   border-radius: 6px;
   background: var(--card);
-  object-fit: cover;
-  object-position: center 34%;
   box-shadow: 0 10px 24px rgba(30, 36, 38, 0.08);
 }
 
